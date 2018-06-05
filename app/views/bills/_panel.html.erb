@@ -16,9 +16,9 @@
   </header>
 
   <section class="panel__details">
-    <ul class="panel_icons">
+    <ul class="panel__icons">
         <% bill.recipients.take(3).each do %>
-  <li class="panel_icon"></li>
+  <li class="panel__icon"></li>
   <% end %>
 
   <% if bill.recipients.count > 3 %>
